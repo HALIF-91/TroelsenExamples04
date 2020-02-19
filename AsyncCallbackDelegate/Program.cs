@@ -14,6 +14,7 @@ namespace AsyncCallbackDelegate
             Console.WriteLine("Main invoked on thread {0}", Thread.CurrentThread.ManagedThreadId);
 
             BinaryOp b = new BinaryOp(Add);
+
             IAsyncResult itfAR = b.BeginInvoke(10, 10, new AsyncCallback(AddComplete), "Main() thanks you for adding these numbers");
 
             // Предположим что здесь выполнятеся какая-то другая работа
