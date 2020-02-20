@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Threading;
+using System.Runtime.Remoting.Contexts;
 
 namespace MultiThreadedPrinting
 {
-    class Printer
+    //[Synchronization]
+    class Printer// : ContextBoundObject
     {
         // Маркер блокировки
         private object threadLock = new object();
@@ -26,6 +28,8 @@ namespace MultiThreadedPrinting
                 Console.WriteLine();
             }
         }
+
+        #region Синхронизация с использованием типа System.Threading.Monitor
         public void ShowNumbers()
         {
             Monitor.Enter(threadLock);
@@ -50,5 +54,25 @@ namespace MultiThreadedPrinting
                 Monitor.Exit(threadLock);
             }
         }
+        #endregion
+
+        #region Синхронизация с использованием типа System.Threading.Interlocked
+        private int intVal;
+        public void AddOne()
+        {
+            // не только изменяет значение входного параметра, но также возвращает
+            int newVal = Interlocked.Increment(ref intVal);
+        }
+        public void SafeAssignment()
+        {
+            // присвоить значение 83 переменной-члену
+            Interlocked.Exchange(ref intVal, 83);
+        }
+        public void CompareAndExchange()
+        {
+            // Если значение i равно 83, заменить его 99
+            Interlocked.CompareExchange(ref intVal, 99, 83);
+        }
+        #endregion
     }
 }
