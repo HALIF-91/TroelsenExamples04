@@ -24,6 +24,7 @@ namespace PLINQDataProcessingWithCancellation
                 Console.WriteLine("Thread is {0}", Thread.CurrentThread.ManagedThreadId);
                 ProcessIntData();
             });
+            this.Text = "1234567890";
         }
 
         private void ProcessIntData()
