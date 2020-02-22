@@ -28,7 +28,6 @@ namespace PLINQDataProcessingWithCancellation
 
         private void ProcessIntData()
         {
-            Console.WriteLine("Thread is {0}", Thread.CurrentThread.ManagedThreadId);
             // Получить очень большой массив целых чисел
             int[] source = Enumerable.Range(1, 10000000).ToArray();
 
