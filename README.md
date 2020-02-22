@@ -5,3 +5,5 @@ C#5 .NET 4.5 Эндрю Троелсен
 3) Проблемы паралеллизма, синхронизация, ключевое слово lock, тип System.Threading.Monitor, System.Threading.Interlocked, [Synchronization], проект - MultiThreadedPrinting;
 4) Использование обратных вызовов Timer, пул потоков CLR, проект - TimerApp, ThreadPoolApp;
 5) Параллельное программирование TPL, доступ к элементам пользовательского интерфейса во вторичных потоках (this.Invoke()), обработка запроса на отмену (Cancel), проект - DataParallelismWithForEach;
+6) Обеспечение параллелизма задач с помощью класса Parallel, проект - MyEBookReader;
+7) Запросы Parallel LINQ (PLINQ), отмена запроса (Cancel), проект - PLINQDataProcessingWithCancellation;
