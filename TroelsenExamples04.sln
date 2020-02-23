@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithCSharpAsync", "FunWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWithThreadAsync", "AddWithThreadAsync\AddWithThreadAsync.csproj", "{581D0200-52B4-4E7E-AEA3-0611B7B92DA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryApp", "DirectoryApp\DirectoryApp.csproj", "{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{581D0200-52B4-4E7E-AEA3-0611B7B92DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{581D0200-52B4-4E7E-AEA3-0611B7B92DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{581D0200-52B4-4E7E-AEA3-0611B7B92DA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
