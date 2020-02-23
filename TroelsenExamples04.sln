@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWithThreadAsync", "AddWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryApp", "DirectoryApp\DirectoryApp.csproj", "{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DriveInfoApp", "DriveInfoApp\DriveInfoApp.csproj", "{316BE811-0C88-45FD-9985-807AD9094AEE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA94EF55-F23A-4D67-A6B5-B3B7A52B7579}.Release|Any CPU.Build.0 = Release|Any CPU
+		{316BE811-0C88-45FD-9985-807AD9094AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{316BE811-0C88-45FD-9985-807AD9094AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{316BE811-0C88-45FD-9985-807AD9094AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{316BE811-0C88-45FD-9985-807AD9094AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
