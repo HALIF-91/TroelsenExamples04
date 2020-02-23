@@ -7,3 +7,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 5) Параллельное программирование TPL, доступ к элементам пользовательского интерфейса во вторичных потоках (this.Invoke()), обработка запроса на отмену (Cancel), проект - DataParallelismWithForEach;
 6) Обеспечение параллелизма задач с помощью класса Parallel, проект - MyEBookReader;
 7) Запросы Parallel LINQ (PLINQ), отмена запроса (Cancel), проект - PLINQDataProcessingWithCancellation;
+8) Асинхронные вызовы (async, await), соглашение об именовании, проект - FunWithCSharpAsync, AddWithThreadAsync;
