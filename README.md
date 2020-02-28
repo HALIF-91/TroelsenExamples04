@@ -11,3 +11,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 9) Работа с типом DirectoryInfo, Directory, перечисление файлов, создание и удаление подкаталогов, проект - DirectoryApp;
 10) Работа с типом DriveInfo, проект - DriveInfoApp;
 11) Работа с типами File & FileInfo, проект - SimpleFileIO;
+12) Работа с классом FileStream, проект - FileStreamApp;
