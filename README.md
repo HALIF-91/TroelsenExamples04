@@ -10,3 +10,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 8) Асинхронные вызовы (async, await), соглашение об именовании, проект - FunWithCSharpAsync, AddWithThreadAsync;
 9) Работа с типом DirectoryInfo, Directory, перечисление файлов, создание и удаление подкаталогов, проект - DirectoryApp;
 10) Работа с типом DriveInfo, проект - DriveInfoApp;
+11) Работа с типами File & FileInfo, проект - SimpleFileIO;
