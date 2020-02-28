@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFileIO", "SimpleFileI
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileStreamApp", "FileStreamApp\FileStreamApp.csproj", "{93E07477-5903-4713-9F3C-44396AB5F2F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterReaderApp", "StreamWriterReaderApp\StreamWriterReaderApp.csproj", "{A6358D5F-EA78-49A7-9F46-33555C294F7B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{93E07477-5903-4713-9F3C-44396AB5F2F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93E07477-5903-4713-9F3C-44396AB5F2F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93E07477-5903-4713-9F3C-44396AB5F2F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6358D5F-EA78-49A7-9F46-33555C294F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6358D5F-EA78-49A7-9F46-33555C294F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6358D5F-EA78-49A7-9F46-33555C294F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6358D5F-EA78-49A7-9F46-33555C294F7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
