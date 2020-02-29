@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StreamWriterReaderApp", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringReaderWriterApp", "StringReaderWriterApp\StringReaderWriterApp.csproj", "{64D507E4-2DFE-4391-B373-372E1344F466}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriterReaderApp", "BinaryWriterReaderApp\BinaryWriterReaderApp.csproj", "{6ACFBBA6-A754-4219-9FD3-CFA8B539D1F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{64D507E4-2DFE-4391-B373-372E1344F466}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64D507E4-2DFE-4391-B373-372E1344F466}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64D507E4-2DFE-4391-B373-372E1344F466}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACFBBA6-A754-4219-9FD3-CFA8B539D1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACFBBA6-A754-4219-9FD3-CFA8B539D1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACFBBA6-A754-4219-9FD3-CFA8B539D1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACFBBA6-A754-4219-9FD3-CFA8B539D1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
