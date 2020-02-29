@@ -12,3 +12,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 10) Работа с типом DriveInfo, проект - DriveInfoApp;
 11) Работа с типами File & FileInfo, проект - SimpleFileIO;
 12) Работа с классом FileStream, проект - FileStreamApp;
+13) Запись и чтение текстового файла, StreamWriter & StreamReader, проект - StreamWriterReaderApp;
