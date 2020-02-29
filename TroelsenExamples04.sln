@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryWriterReaderApp", "Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDirectoryWatcher", "MyDirectoryWatcher\MyDirectoryWatcher.csproj", "{C80E863E-94A4-4F64-A2B1-45F462435F40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryFormatterApp", "BinaryFormatterApp\BinaryFormatterApp.csproj", "{3ADBB921-8C44-4132-A717-64DAC32A3AED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{C80E863E-94A4-4F64-A2B1-45F462435F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C80E863E-94A4-4F64-A2B1-45F462435F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C80E863E-94A4-4F64-A2B1-45F462435F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3ADBB921-8C44-4132-A717-64DAC32A3AED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3ADBB921-8C44-4132-A717-64DAC32A3AED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3ADBB921-8C44-4132-A717-64DAC32A3AED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3ADBB921-8C44-4132-A717-64DAC32A3AED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
