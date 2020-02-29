@@ -17,3 +17,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 15) Работа с классами BinaryWriter и BinaryReader, проект - BinaryWriterReaderApp;
 16) Программное отслеживание изменений файлов, FileSystemWatcher, проект - MyDirectoryWatcher;
 17) Сериализация объектов, BinaryFormatter, проект - BinaryFormatterApp;
+18) Сериализация/десериализация объектов с использованием BinaryFormatter, SoapFormatter, XmlSerializer, управление генерацией данных XML, сериализация коллекций объектов, проект SimpleSerialize;
