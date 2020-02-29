@@ -84,6 +84,8 @@ namespace SimpleSerialize
         #endregion
 
         #region XmlSerializer
+        // XmlSerializer будет сериализировать только открытые поля данных
+        // или закрытые поля, представленные открытыми свойствами
         static void SaveAsXmlFormat(object objGraph, string fileName)
         {
             // Сохранить объект в файле CarData.xml в формате XML
