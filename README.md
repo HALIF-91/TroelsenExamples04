@@ -16,3 +16,4 @@ C#5 .NET 4.5 Эндрю Троелсен
 14) Работа с классами StringWriter и StringReader, проект - StringReaderWriterApp;
 15) Работа с классами BinaryWriter и BinaryReader, проект - BinaryWriterReaderApp;
 16) Программное отслеживание изменений файлов, FileSystemWatcher, проект - MyDirectoryWatcher;
+17) Сериализация объектов, BinaryFormatter, проект - BinaryFormatterApp;
